@@ -26,6 +26,13 @@ Pod::Spec.new do |s|
   
     # 框架配置
     s.vendored_frameworks = [
-      'ffmpeg-kit-ios-min/ffmpegkit.xcframework'  # 指向xcframework根目录
+      'ffmpeg-kit-ios-min/ffmpegkit.xcframework',
+      'ffmpeg-kit-ios-min/libavcodec.xcframework',
+      'ffmpeg-kit-ios-min/libavdevice.xcframework',
+      'ffmpeg-kit-ios-min/libavfilter.xcframework',
+      'ffmpeg-kit-ios-min/libavformat.xcframework',
+      'ffmpeg-kit-ios-min/libavutil.xcframework',
+      'ffmpeg-kit-ios-min/libswresample.xcframework',
+      'ffmpeg-kit-ios-min/libswscale.xcframework',
     ]
   end
