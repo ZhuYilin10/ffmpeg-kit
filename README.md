@@ -1,5 +1,13 @@
 # FFmpegKit ![GitHub release](https://img.shields.io/badge/release-v6.0-blue.svg) ![Maven Central](https://img.shields.io/maven-central/v/com.arthenica/ffmpeg-kit-min) ![CocoaPods](https://img.shields.io/cocoapods/v/ffmpeg-kit-ios-min) ![pub](https://img.shields.io/pub/v/ffmpeg_kit_flutter.svg) ![npm](https://img.shields.io/npm/v/ffmpeg-kit-react-native.svg)
 
+## 编译命令
+./ios.sh -x --disable-arm64e --disable-x86-64 --disable-x86-64-mac-catalyst --disable-arm64-mac-catalyst --disable-arm64-simulator --enable-ios-audiotoolbox     
+具体功能定制需要参考 ffmpeg-kit/scripts/function-ios.sh
+
+## 使用
+这里只管了 ios-min 的编译   
+pod 'ffmpeg-kit-ios-min', git: 'https://github.com/ZhuYilin10/ffmpeg-kit', branch: 'main'
+
 ## Notice
 FFmpegKit has been officially retired. There will be no further `ffmpeg-kit` releases.
 
